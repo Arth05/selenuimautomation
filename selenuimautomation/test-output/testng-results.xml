@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-26T21:11:17 EDT" name="Default suite" finished-at="2026-04-26T21:11:27 EDT" duration-ms="9996">
+    <groups>
+    </groups>
+    <test started-at="2026-04-26T21:11:17 EDT" name="Default test" finished-at="2026-04-26T21:11:27 EDT" duration-ms="9996">
+      <class name="selenuimautomation.InternetAppTest">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:17 EDT" name="initialise" finished-at="2026-04-26T21:11:17 EDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method is-config="true" signature="preReq(java.lang.reflect.Method)[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:17 EDT" name="preReq" finished-at="2026-04-26T21:11:17 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenuimautomation.InternetAppTest.JSpromptAlert()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preReq -->
+        <test-method signature="JSpromptAlert()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:17 EDT" name="JSpromptAlert" finished-at="2026-04-26T21:11:19 EDT" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JSpromptAlert -->
+        <test-method signature="confirmationAlert()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:19 EDT" name="confirmationAlert" finished-at="2026-04-26T21:11:20 EDT" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationAlert -->
+        <test-method is-config="true" signature="preReq(java.lang.reflect.Method)[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:19 EDT" name="preReq" finished-at="2026-04-26T21:11:19 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenuimautomation.InternetAppTest.confirmationAlert()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preReq -->
+        <test-method is-config="true" signature="preReq(java.lang.reflect.Method)[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:20 EDT" name="preReq" finished-at="2026-04-26T21:11:20 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenuimautomation.InternetAppTest.dragAndDrop()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preReq -->
+        <test-method signature="dragAndDrop()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:20 EDT" name="dragAndDrop" finished-at="2026-04-26T21:11:24 EDT" duration-ms="3739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method is-config="true" signature="preReq(java.lang.reflect.Method)[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:24 EDT" name="preReq" finished-at="2026-04-26T21:11:24 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenuimautomation.InternetAppTest.loginForm()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preReq -->
+        <test-method signature="loginForm()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:24 EDT" name="loginForm" finished-at="2026-04-26T21:11:26 EDT" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForm -->
+        <test-method signature="simpleAlert()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:26 EDT" name="simpleAlert" finished-at="2026-04-26T21:11:27 EDT" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlert -->
+        <test-method is-config="true" signature="preReq(java.lang.reflect.Method)[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:26 EDT" name="preReq" finished-at="2026-04-26T21:11:26 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void selenuimautomation.InternetAppTest.simpleAlert()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preReq -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenuimautomation.InternetAppTest@6c80d78a]" started-at="2026-04-26T21:11:27 EDT" name="tearDown" finished-at="2026-04-26T21:11:27 EDT" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenuimautomation.InternetAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

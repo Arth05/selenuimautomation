@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="selenuimautomation.InternetAppTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="JSpromptAlert"/>
+          <include name="initialise"/>
+          <include name="preReq"/>
+        </methods>
+      </class> <!-- selenuimautomation.InternetAppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
