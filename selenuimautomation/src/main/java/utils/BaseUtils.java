@@ -18,7 +18,7 @@ public class BaseUtils {
         try {
             properties = new Properties();
             InputStream is = BaseUtils.class.getClassLoader()
-                                            .getResourceAsStream("config.properties");
+                                            .getResourceAsStream("config1.properties");
             properties.load(is);
         } catch (Exception e) {
             System.err.println("Failed to load config properties.");

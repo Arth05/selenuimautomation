@@ -28,31 +28,32 @@ public class BaseTest {
 		ExtentTestManager.createTest(method.getName());
 	}
 
-	@AfterMethod
-	public void tearDown(ITestResult result) throws IOException {
-
-		if (result.getStatus() == ITestResult.SUCCESS) {
-
-			ExtentTestManager.log.pass("Test Passed");
-
-		} else if (result.getStatus() == ITestResult.FAILURE) {
-
-			String screenshotName = result.getInstance().getClass().getSimpleName() + "."
-					+ result.getMethod().getMethodName();
-
-			String screenshotPath = BaseUtils.getScreenShotPath(DriverManager.getDriver(), screenshotName);
-
-			ExtentTestManager.log.fail(result.getThrowable(),
-					MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-
-		}
-
-		else if (result.getStatus() == ITestResult.SKIP) {
-
-			ExtentTestManager.log.skip("Test Skipped");
-		}
-
-	}
+	/*
+	 * @AfterMethod public void tearDown(ITestResult result) throws IOException {
+	 * 
+	 * if (result.getStatus() == ITestResult.SUCCESS) {
+	 * 
+	 * ExtentTestManager.log.pass("Test Passed");
+	 * 
+	 * } else if (result.getStatus() == ITestResult.FAILURE) {
+	 * 
+	 * String screenshotName = result.getInstance().getClass().getSimpleName() + "."
+	 * + result.getMethod().getMethodName();
+	 * 
+	 * String screenshotPath =
+	 * BaseUtils.getScreenShotPath(DriverManager.getDriver(), screenshotName);
+	 * 
+	 * ExtentTestManager.log.fail(result.getThrowable(),
+	 * MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+	 * 
+	 * }
+	 * 
+	 * else if (result.getStatus() == ITestResult.SKIP) {
+	 * 
+	 * ExtentTestManager.log.skip("Test Skipped"); }
+	 * 
+	 * }
+	 */
 
 	@AfterSuite
 	public void tearDown() {

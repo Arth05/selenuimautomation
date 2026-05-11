@@ -1,5 +1,5 @@
 pageclasses\HomePage.class
-pageclasses\LoginPage.class
 utils\UIActionUtils.class
-managers\WaitManager.class
 managers\DriverManager.class
+pageclasses\LoginPage.class
+managers\WaitManager.class
